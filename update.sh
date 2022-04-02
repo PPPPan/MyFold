@@ -1,3 +1,4 @@
+git remote rm origin
 rm -f README.md
 touch README.md
 echo "updated in Berlin at" >> README.md
