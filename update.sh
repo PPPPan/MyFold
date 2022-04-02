@@ -1,4 +1,4 @@
-NOW = $(date +"%d-%m-%y")
+$NOW = $(date +"%d-%m-%y")
 rm -f README.md
 echo "$NOW updated in Berlin" >> README.md
 git init
