@@ -6,7 +6,8 @@ date +"%H:%M:%S %d-%m-%y" >> README.md
 git init
 git add *
 read -p "Comment:" c
+read -p "Branch:" b
 git commit -m "$c"
 git remote add origin git@github.com:PPPPan/MyFold.git
-git branch -M test
-git push -u origin test
+git branch -M $b
+git push -u origin $b
